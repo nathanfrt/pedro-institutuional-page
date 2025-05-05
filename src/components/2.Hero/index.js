@@ -42,7 +42,7 @@ function Hero() {
                 <p className="title">{item.title}</p>
                 <p className="description">{item.desc}</p>
               </div>
-              <button className="btn btn-success buttonp">
+              <button className="btn btn-success buttonp animate-on-visible ">
                 <a href="https://wa.me/5531995054490?text=Ol%C3%A1,%20Dr.%20Pedro!%20%F0%9F%A7%A0%F0%9F%98%8A%0A%0AEncontrei%20o%20seu%20site%20e%20me%20interessei%20pela%20consulta.%20Gostaria%20de%20saber%20como%20funciona%20o%20atendimento%20e%20quais%20s%C3%A3o%20as%20op%C3%A7%C3%B5es%20dispon%C3%ADveis.%0AObrigado(a)!">
                   Agendar
                 </a>

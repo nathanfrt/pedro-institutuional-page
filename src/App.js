@@ -8,6 +8,7 @@ import Questions from "./components/7.Faq";
 import Location from "./components/8.Contact";
 import Footer from "./components/9.Footer";
 import Prefooter from "./components/10.Prefooter";
+import WhatsAppButton from "./components/Whastapp";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Location/>
       <Prefooter/>
       <Footer/>
+      <WhatsAppButton/>
     </div>
   );
 }

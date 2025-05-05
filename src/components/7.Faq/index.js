@@ -59,7 +59,7 @@ function Questions() {
                     <p className="section-title">Perguntas Frequentes</p>
                 </div>
 
-                <div className="faq-cards">
+                <div className="faq-cards animate-on-visible ">
                     {faqs.map((faq, index) => (
                         <div key={index} className="faq-item">
                             <div className="faq-question" onClick={toggleFaq}>

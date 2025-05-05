@@ -1,5 +1,8 @@
 import styles from "./Location.css";
 import GoogleMap from './GoogleMap';
+import whatsApp from "../../Images/whastapp.png";
+import instagram from "../../Images/instagram.png";
+import calender from "../../Images/calendar.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Feedbacks() {
@@ -18,10 +21,22 @@ function Feedbacks() {
                             </p>
                         </div>
 
-                        <div className="button-group">
-                            <ButtonLink href={`https://wa.me/5531995054490?text=${encodeURIComponent(contactText)}`} text="Agende sua consulta" />
-                            <ButtonLink href={`https://wa.me/5531995054490?text=${encodeURIComponent(contactText)}`} text="siqueirapsquiatria" />
-                            <ButtonLink href={`https://wa.me/5531995054490?text=${encodeURIComponent(contactText)}`} text="(31) 99505-4490" />
+                        <div className="button-group animate-on-visible ">
+                            <ButtonLink
+                                href={`https://wa.me/5531995054490?text=${encodeURIComponent(contactText)}`}
+                                text="Agendar consulta"
+                                img={calender}
+                            />
+                            <ButtonLink
+                                href="https://www.instagram.com/siqueirapsiquiatria/"
+                                text="siqueirapsiquiatria"
+                                img={instagram}
+                            />
+                            <ButtonLink
+                                href={`https://wa.me/5531995054490?text=${encodeURIComponent(contactText)}`}
+                                text="(31) 99505-4490"
+                                img={whatsApp}
+                            />
                         </div>
 
                         <div className="contact-informations">
@@ -46,9 +61,12 @@ function Feedbacks() {
     );
 }
 
-const ButtonLink = ({ href, text }) => (
+const ButtonLink = ({ href, text, img }) => (
     <button className="btn btn-success buttonp">
-        <a href={href}>{text}</a>
+        <a href={href} className="d-flex align-items-center gap-2">
+            {img && <img src={img} alt={text} style={{ height: "25px" }} />}
+            <span>{text}</span>
+        </a>
     </button>
 );
 

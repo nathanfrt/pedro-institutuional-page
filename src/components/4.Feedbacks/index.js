@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Feedbacks() {
     return (
-        <div className="container feedbacks">
+        <div className="container feedbacks animate-on-visible ">
             <section className="feedbacks-card">      
                 <div className="feedback-introduction">
                 <p>Depoimentos de Pacientes</p>          

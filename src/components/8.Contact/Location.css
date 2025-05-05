@@ -53,11 +53,12 @@
 }
 
 .content-card button {
-    display: flex;
+    display: flex
+;
     flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: 20px !important;
-    width: 280px;
+    width: 240px;
 }
 
 .contact-section div > .content-card:nth-of-type(2) {
@@ -67,6 +68,10 @@
 
 .contact-informations {
     margin: 0px 50px;
+}
+
+.logo-footer img {
+    width: 15%;
 }
 
 /* Adicionando estilo para o agrupamento de botões */

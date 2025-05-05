@@ -38,23 +38,23 @@ button { margin: auto !important; border-radius: 12px !important; padding: 10px 
 
 .animate-on-visible {
   opacity: 0;
-  transform: translateY(30px);
+  transform: translateY(80px);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 .animate-on-visible.visible {
-  opacity: 1;
+  opacity: 3;
   transform: translateY(0);
 }
 
 .animate-slide-right {
   opacity: 0;
-  transform: translateX(50px);
+  transform: translateX(80px);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
 .animate-slide-right.visible {
-  opacity: 1;
-  transform: translateX(0);
+  opacity: 3;
+  transform: translateX(1);
 }
 
 
@@ -110,7 +110,7 @@ button {
 }
 
   .nav-links { position: absolute; top: 0px; left: 0; right: 0; background: white; flex-direction: column; align-items: center; gap: 1.5rem; padding: 20px 0; transform: translateY(-150%); opacity: 0; pointer-events: none; }
-  .nav-links.open { transform: translateY(0); opacity: 1; pointer-events: all; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); }
+  .nav-links.open { transform: translateY(0); opacity: 1; pointer-events: all; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); background: #448e82;  }
   .hamburger {
     display: flex
 ;

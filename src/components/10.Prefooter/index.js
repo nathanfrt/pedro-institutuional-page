@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Footer() {
     return (
 
-        <div className="container prefooter">
+        <div className="container prefooter animate-on-visible ">
             <section className="prefooter-section">
                 <div className="logo-footer">
                     <img src={logo} />

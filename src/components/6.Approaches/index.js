@@ -115,13 +115,13 @@ function Topics() {
           ))}
         </div>
 
-        <div className="buttons text-center">
+        <div className="buttons">
           <button className="btn btn-success buttont mb-3" onClick={() => setShowModal(true)}>
             Veja todos os tratamentos aqui
           </button>
           <br />
           <button className="btn btn-success buttonp">
-            <a href="https://wa.me/5531995054490?text=Ol%C3%A1,%20Dr.%20Pedro!..." className="text-white text-decoration-none">
+            <a href="https://wa.me/5531995054490?text=Ol%C3%A1,%20Dr.%20Pedro!" className="text-white text-decoration-none">
               Marque sua consulta
             </a>
           </button>
