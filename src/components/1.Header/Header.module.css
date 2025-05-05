@@ -44,17 +44,13 @@ nav a:hover::after, nav a:focus::after { width: 100%; }
 
   .main { margin: 0px 10px !important; text-align: center; }
 
+  .hamburger { display: flex; position: fixed; background: white; padding: 15px 10px; border-radius: 5px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); }
+
   .navLinks { position: absolute; top: 0px; left: 0; right: 0; background: white; flex-direction: column; align-items: center; gap: 1.5rem; padding: 20px 0; transform: translateY(-150%); opacity: 0; pointer-events: none; }
   .navLinks.open { transform: translateY(0); opacity: 1; pointer-events: all; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); background: #448e82; }
-  nav > a {
-    margin: -5px;
-    padding: 0px 16px;
-    border-bottom: 0.2px solid #57b1a2;
-    font-size: 11px !important;
-    width: 80%;
-    text-align: center;
+  
+  nav > a { margin: -5px; padding: 0px 16px; border-bottom: 0.2px solid #57b1a2; font-size: 13px !important; width: 80%; text-align: center;
 }
 
-
-  .hamburger { display: flex; position: absolute; background: white; padding: 15px 10px; border-radius: 5px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); }
+  
 }
