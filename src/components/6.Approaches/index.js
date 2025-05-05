@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from "./Topics.css";
+import styles from "./Approaches.module.css";
 import dependencias from "../../Images/dependência.png";
 import bipolar from "../../Images/bipolar.png";
 import depressao from "../../Images/depressão.png";
@@ -95,32 +95,32 @@ function Topics() {
   ];
 
   return (
-    <div className="container topics" id="saude-mental">
-      <section className="section-topics">
-        <div className="topics-introduction">
-          <p className="section-title">Temas que atendo</p>
+    <div className={`container ${styles.approaches}`} id="saude-mental">
+      <section className={`${styles.sectionApproaches}`}>
+        <div className={`${styles.approachesIntroduction}`}>
+          <p className={`${styles.sectionTitle}`}>Temas que atendo</p>
         </div>
 
-        <div className="d-flex justify-content-between align-items-center mb-5 flex-wrap topics-card">
+        <div className={`d-flex justify-content-between align-items-start mb-5 flex-wrap ${styles.approachesCard}`}>
           {cards.map((card, index) => (
-            <div key={index} className="col-lg-4 col-md-12 theme animate-on-visible">
-              <div className="content">
-                <div className="icon">
-                  <img src={card.img} alt={card.title} className="icon-card" />
-                  <p className="title">{card.title}</p>
+            <div key={index} className={`col-lg-4 col-md-12 ${styles.theme} animate-on-visible`}>
+              <div className={styles.content}>
+                <div className={styles.icon}>
+                  <img src={card.img} alt={card.title} className={styles.iconCard} />
+                  <p className={styles.title}>{card.title}</p>
                 </div>
-                <p className="description">{card.desc}</p>
+                <p className={styles.description}>{card.desc}</p>
               </div>
             </div>
           ))}
         </div>
 
-        <div className="buttons">
-          <button className="btn btn-success buttont mb-3" onClick={() => setShowModal(true)}>
+        <div className={styles.buttons}>
+          <button className={`${styles.buttont} btn btn-success mb-3}`} onClick={() => setShowModal(true)}>
             Veja todos os tratamentos aqui
           </button>
           <br />
-          <button className="btn btn-success buttonp">
+          <button className="btn btn-success">
             <a href="https://wa.me/5531995054490?text=Ol%C3%A1,%20Dr.%20Pedro!" className="text-white text-decoration-none">
               Marque sua consulta
             </a>
@@ -129,20 +129,20 @@ function Topics() {
       </section>
 
       {showModal && (
-        <div className="modal-overlay">
-          <div className="modal-content">
-            <button className="close-btn" onClick={() => setShowModal(false)}>×</button>
+        <div className={styles.modalOverlay}>
+          <div className={styles.modalContent}>
+            <button className={styles.closeBtn} onClick={() => setShowModal(false)}>×</button>
             <p>Todos os Tratamentos</p>
-
-            <div className="d-flex justify-content-between align-items-center mb-5 flex-wrap modal-cards">
+            
+            <div className={`d-flex justify-content-between align-items-center mb-5 flex-wrap ${styles.modalCards}`}>
               {modalCards.map((item, idx) => (
-                <div key={idx} className="col-lg-3 col-md-6 modal-category">
-                  <div className="content">
-                    <div className="icon ">
-                      <img src={item.img} alt={item.title} className="icon-card " />
-                      <p className="title">{item.title}</p>
+                <div key={idx} className={`col-lg-3 col-md-6 ${styles.modalCategory}`}>
+                  <div className={styles.content}>
+                    <div className={styles.icon}>
+                      <img src={item.img} alt={item.title} className={styles.iconCard} />
+                      <p className={styles.title}>{item.title}</p>
                     </div>
-                    <ul className="description">
+                    <ul className={styles.description}>
                       {item.items.map((el, i) => <li key={i}>{el}</li>)}
                     </ul>
                   </div>

@@ -1,0 +1,19 @@
+.himself {margin-top: 20px;}
+.himselfCard { margin-top: 50px; flex-wrap: wrap; }
+
+.iconHimself { width: 90%; border-radius: 15px; box-shadow: 0 10px 8px rgba(0, 0, 0, 0.20); }
+
+.himselfIntroduction p:first-child { text-align: center; font-size: 30px; font-weight: bold; margin-bottom: 40px; }
+.himselfIntroduction .description { padding: 20px; font-size: 18px; text-align: justify; margin: 10px 40px; }
+
+.himself .himselfIntroduction button { margin-top: -33px !important; z-index: 9; display: flex ;}
+.himself button:hover { background: #39776d !important; }
+
+@media (max-width: 768px) {    
+    .iconHimself { width: 100%; margin-top: 20px; }
+
+    .himselfIntroduction .description { padding: 0px; font-size: 14px; text-align: justify; margin: 10px 30px; }
+    .himselfIntroduction p:first-child { font-size: 24px; margin-bottom: 15px; }
+
+    .himselfCard { margin-top: 30px;}
+}

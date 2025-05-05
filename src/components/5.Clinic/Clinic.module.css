@@ -1,0 +1,18 @@
+.cards { margin: 50px auto; flex-wrap: wrap; }
+
+.iconService { width: 90%; border-radius: 15px; box-shadow: 0 10px 8px rgba(0, 0, 0, 0.20); }
+
+
+
+
+@media (max-width: 768px) {
+
+    .clinicIntroduction p:first-child { text-align: center; font-size: 24px;}
+    .clinicIntroduction .description { padding: 5px; font-size: 14px; text-align: justify; margin: 10px 15px; }
+
+    .clinicIntroduction p:first-child { font-size: 24px; margin-bottom: 15px; }
+
+    .iconService {margin-top: 30px; }
+    .card { margin: 25px auto; }    
+
+}

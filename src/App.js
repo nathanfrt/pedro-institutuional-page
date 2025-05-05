@@ -1,5 +1,5 @@
 import Header from "./components/1.Header";
-import About from "./components/3.Heself";
+import About from "./components/3.Himself";
 import Hero from "./components/2.Hero";
 import Feedbacks from "./components/4.Feedbacks";
 import Services from "./components/5.Clinic";
