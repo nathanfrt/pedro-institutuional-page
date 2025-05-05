@@ -1,7 +1,7 @@
 {
   "name": "institutional-page",
   "version": "0.1.0",
-  "homepage": "https://nathanfrt.github.io/pedro-institutuional-page",
+  "homepage": "https://nathanfrt.github.io/pedro-institutuional-page/",
   "private": true,
   "dependencies": {
     "@tailwindcss/vite": "^4.0.17",
