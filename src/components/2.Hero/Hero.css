@@ -1,0 +1,23 @@
+.hero { background: #1e232f !important; color: white; text-align: center; padding: 5%; z-index: 3; position: relative; max-width: max-content; }
+.hero-card { width: 80%; margin: auto; flex-wrap: wrap; }
+.hero-introduction p:first-child { text-align: center; font-size: 30px; font-weight: bold; margin-bottom: 40px; }
+.hero-introduction p:last-child { font-size: 18px; margin: 0% 12%; }
+
+.card { background: #1e232f; border-color: transparent; margin-top: 10%; }
+.card .content { text-align: center; padding: 15px; border-radius: 25px; background: white; margin: 0px 10px; height: 370px; transition: transform 0.3s ease; }
+.card .content:hover { transform: scale(1.02); box-shadow: 0 0 5px rgba(255, 255, 255, 0.6); }
+.card .content .title { font-weight: bold; font-size: 15px; }
+.card .content .description { margin: 14px; position: relative; text-align: center; }
+.card .buttonp { margin-top: -33px !important; z-index: 9; }
+.card .buttonp:hover { background: #39776d !important; }
+
+.icon-card { width: 25%; margin: auto; padding: 5px; margin-bottom: 25px; margin-top: 20px; }
+.buttonp a { color: white; text-decoration: none; }
+
+@media (max-width: 768px) {
+  .hero-introduction p:first-child { font-size: 24px; }
+  .hero-introduction p:last-child { font-size: 16px; margin: 25px 0px; }
+  .card .description { margin: 10px !important; font-size: 12px; }
+  .card .content { padding: 0px 20px; margin: 0px; height: 300px; }
+  .card .buttonp { margin-top: -50px !important; }
+}

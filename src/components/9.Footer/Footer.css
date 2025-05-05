@@ -1,0 +1,33 @@
+.logo-footer {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+}
+
+.footer-information {
+    text-align: center;
+    color: white;
+    background: #212529; 
+    padding: 15px 0px;
+}
+
+.footer-information p {
+    font-size: 12px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.footer {
+    max-width: none;
+    background: #212529;
+}
+
+@media (max-width: 768px) {
+.logo-footer img {
+    width: 75%;
+}
+
+.logo-footer { 
+    margin: 50px 0px;
+}
+}

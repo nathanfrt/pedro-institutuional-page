@@ -1,0 +1,85 @@
+.contact-introduction p:first-child {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.contact-introduction .description {
+    padding: 20px;
+    font-size: 18px;
+    text-align: justify;
+    margin: 10px 40px;
+}
+
+.contact .contact-introduction .buttonp {
+    margin-top: -33px !important;
+    z-index: 9;
+    display: flex;
+}
+
+.contact .buttonp:hover {
+    background: #39776d !important;
+}
+
+.contact-card {
+    align-items: normal !important;
+    flex-wrap: wrap;
+}
+
+.content-card:first-child {
+    background: #212529;
+    color: white;
+}
+
+.contact {    
+    color: white;
+    max-width: max-content;
+    background: #212529;
+}
+
+.content-card > div:first-child {
+    margin: 40px !important;
+}
+
+.contact-introduction p,
+.contact-informations p {
+    margin: 40px;
+    text-align: center;
+}
+
+.contact-informations p {
+    font-size: 12px;
+}
+
+.content-card button {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 20px !important;
+    width: 280px;
+}
+
+.contact-section div > .content-card:nth-of-type(2) {
+    color: #212529 !important;
+    background: white;
+}
+
+.contact-informations {
+    margin: 0px 50px;
+}
+
+/* Adicionando estilo para o agrupamento de botões */
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+
+.contact-introduction p, .contact-informations p {
+    margin: 40px 0px;
+    text-align: center;
+}
+}

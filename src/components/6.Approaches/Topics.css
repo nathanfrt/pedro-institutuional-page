@@ -1,0 +1,206 @@
+.topics{
+    margin: 95px auto;
+}
+
+.theme .icon-card, .modal-cards .icon-card{ width: 30%; margin: 0px; padding: 5px; margin-bottom: 25px; margin-top: 20px; }
+
+.theme .content .title, .modal-cards .content .title{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    margin: auto 6px;
+}
+.theme .content .description, .modal-cards .content .description {
+    margin: 0px 35px;
+    text-align: left;
+    font-size: 17px;
+}
+.theme .content, .modal-cards .content {
+    text-align: center;
+    padding: 5px;
+    border-radius: 25px;
+    border-color: transparent;
+    color: white;
+    background: #1e232f;
+    margin: 0px 10px;
+    height: 370px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.theme .content:hover, .modal-cards .content:hover { transform: scale(1.02); box-shadow: 0 0 5px rgba(255, 255, 255, 0.6); background: #1518218f;}
+
+.theme .content .icon, .modal-cards .content .icon {
+    display: flex
+;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+
+.topics-card, .modal-cards {  margin: 0px 55px; display: flex
+    ;
+        flex-direction: row;
+        flex-wrap: wrap;}
+
+.topics-introduction p:first-child { text-align: center; font-size: 30px; font-weight: bold;  }
+
+
+.topics-introduction {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    color: #448e82;
+  }
+
+  .topics-introduction::before,
+  .topics-introduction::after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #009688;
+    margin: 0 20px;
+  }
+
+  .topics-introduction p {
+    white-space: nowrap;
+    font-weight: bold;
+  }
+
+
+.theme { border-color: transparent; margin-top: 6%; }
+.topics-card .buttonp:hover, .modal-cards .buttonp:hover { background: #39776d !important; }
+
+.topics-card .description, .modal-cards .description { position: relative; text-align: center; margin: 20px !important; }
+
+.buttons button:first-child {
+    background: #1e232f !important;
+    margin-bottom: 20px !important;
+}
+.buttons {
+    text-align: center;
+}
+
+.buttons button:first-child:hover { background: #414a61 !important; }
+
+.buttonp a, .buttont a {
+    color: white;
+    text-decoration: none;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    overflow: auto;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    position: relative;
+    text-align: left;
+    max-height: 90vh; /* limite vertical */
+  overflow-y: auto;
+}
+
+.modal-category {
+    font-size: 10px !important;
+    margin-bottom: 20px;
+}
+
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 40px;
+    background: transparent !important;
+    border: 2px solid black;
+    cursor: pointer !important;
+    padding: 0px 10px !important;
+    line-height: 40px;
+}
+
+.modal-category .content:hover { transform: scale(1.02); box-shadow: 0 0 5px rgba(255, 255, 255, 0.6); }
+
+.hero { background: #1e232f !important; color: white; text-align: center; padding: 5%; z-index: 3; position: relative; max-width: max-content; }
+.hero-card { width: 80%; margin: auto; flex-wrap: wrap;}
+.hero-introduction p:first-child { text-align: center; font-size: 30px; font-weight: bold; margin-bottom: 40px; }
+.hero-introduction p:last-child { font-size: 18px; margin: 0% 12%; }
+
+.card { background: #1e232f; border-color: transparent; margin-top: 6%; }
+.card .buttonp { margin-top: -33px !important; z-index: 9; }
+.card .buttonp:hover { background: #39776d !important; }
+
+.card .description { position: relative; text-align: center; margin: 20px !important; }
+
+.modal-cards .content {
+    height: 280px;
+}
+
+.text-center br {
+    display: none;
+}
+
+
+
+@media (max-width: 768px) {
+.topics-introduction p:first-child {    
+    font-size: 24px;
+    margin: auto;
+}
+.topics-introduction::before, .topics-introduction::after{
+    display: none;
+}
+
+.topics-card {
+    margin: 0px 10px;
+}
+
+.theme .icon-card, .modal-cards .icon-card {
+    width: 20%;
+}
+.theme .content .title , .modal-cards .content .title { 
+    font-size: 18px;
+}
+.theme .content .icon, .modal-cards .content .icon {    
+    margin: 0px 17px;    
+}
+.theme .content{
+height: 250px;
+}
+
+.modal-cards {
+    margin: 0px;
+}
+
+.modal-content { 
+    padding: 15px;
+}
+.theme .content .description, .modal-cards .content .description {    
+    font-size: 14px;
+    margin: 0px 20px !important;
+
+    
+}
+.close-btn {
+    position: fixed;
+    top: 15%;
+    background: #009688 !important;
+    font-size: 40px !important;
+}
+
+.close-btn p{
+    font-size: 23px;
+    text-align: center;
+    FONT-WEIGHT: 600;
+}
+}
