@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pedro-institutuional-page/static/css/main.22ff1ec7.css",
-    "main.js": "/pedro-institutuional-page/static/js/main.aba0190a.js",
+    "main.css": "/pedro-institutuional-page/static/css/main.71863589.css",
+    "main.js": "/pedro-institutuional-page/static/js/main.9666558c.js",
     "static/media/doutor.jpg": "/pedro-institutuional-page/static/media/doutor.a253ac609cdd13dcb738.jpg",
     "static/media/Sobre.jpeg": "/pedro-institutuional-page/static/media/Sobre.39bbd1c4516f69ab75af.jpeg",
     "static/media/consultorio.jpeg": "/pedro-institutuional-page/static/media/consultorio.10e8b5e00c6f8699d65b.jpeg",
@@ -24,11 +24,11 @@
     "static/media/drugs.png": "/pedro-institutuional-page/static/media/drugs.c45a6b628c3889a7359f.png",
     "static/media/calendar.png": "/pedro-institutuional-page/static/media/calendar.0bc85778586f06a9efb8.png",
     "index.html": "/pedro-institutuional-page/index.html",
-    "main.22ff1ec7.css.map": "/pedro-institutuional-page/static/css/main.22ff1ec7.css.map",
-    "main.aba0190a.js.map": "/pedro-institutuional-page/static/js/main.aba0190a.js.map"
+    "main.71863589.css.map": "/pedro-institutuional-page/static/css/main.71863589.css.map",
+    "main.9666558c.js.map": "/pedro-institutuional-page/static/js/main.9666558c.js.map"
   },
   "entrypoints": [
-    "static/css/main.22ff1ec7.css",
-    "static/js/main.aba0190a.js"
+    "static/css/main.71863589.css",
+    "static/js/main.9666558c.js"
   ]
 }
