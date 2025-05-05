@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/pedro-institutuional-page/static/css/main.804cd808.css",
+    "main.js": "/pedro-institutuional-page/static/js/main.70765b81.js",
+    "static/media/doutor.jpg": "/pedro-institutuional-page/static/media/doutor.a253ac609cdd13dcb738.jpg",
+    "static/media/Sobre.jpeg": "/pedro-institutuional-page/static/media/Sobre.39bbd1c4516f69ab75af.jpeg",
+    "static/media/consultorio.jpeg": "/pedro-institutuional-page/static/media/consultorio.10e8b5e00c6f8699d65b.jpeg",
+    "static/media/logo preto.png": "/pedro-institutuional-page/static/media/logo preto.d343af423aa137bca698.png",
+    "static/media/mudancas-de-humor.png": "/pedro-institutuional-page/static/media/mudancas-de-humor.a7f069c05c3aee65c4a6.png",
+    "static/media/tept.png": "/pedro-institutuional-page/static/media/tept.3de469416c6ce4287b4c.png",
+    "static/media/insonia.png": "/pedro-institutuional-page/static/media/insonia.017ccd032373f34c6f80.png",
+    "static/media/worldwide.png": "/pedro-institutuional-page/static/media/worldwide.fab363dd307cfbd32cb2.png",
+    "static/media/bipolar.png": "/pedro-institutuional-page/static/media/bipolar.cd2e90af3a70be8fe222.png",
+    "static/media/transtorno-alimentar.png": "/pedro-institutuional-page/static/media/transtorno-alimentar.e2a8f42ade6e96021039.png",
+    "static/media/ansiedade.png": "/pedro-institutuional-page/static/media/ansiedade.b8d4fc1d33ce1cbec310.png",
+    "static/media/toc.png": "/pedro-institutuional-page/static/media/toc.53a8c3cbb07eb21641b9.png",
+    "static/media/frustrado.png": "/pedro-institutuional-page/static/media/frustrado.4d2926a1a2e4933cd71a.png",
+    "static/media/audicao.png": "/pedro-institutuional-page/static/media/audicao.21f2f69c3d1ffca8e1b5.png",
+    "static/media/tdah.png": "/pedro-institutuional-page/static/media/tdah.b1d3914289e32d9bf73a.png",
+    "static/media/depressão.png": "/pedro-institutuional-page/static/media/depressão.4fd1d710452f27a93fdc.png",
+    "static/media/chat.png": "/pedro-institutuional-page/static/media/chat.c81dfecb5368e74cac89.png",
+    "static/media/fobia.png": "/pedro-institutuional-page/static/media/fobia.52d35789acdc7838b569.png",
+    "static/media/drugs.png": "/pedro-institutuional-page/static/media/drugs.c45a6b628c3889a7359f.png",
+    "static/media/calendar.png": "/pedro-institutuional-page/static/media/calendar.0bc85778586f06a9efb8.png",
+    "index.html": "/pedro-institutuional-page/index.html",
+    "main.804cd808.css.map": "/pedro-institutuional-page/static/css/main.804cd808.css.map",
+    "main.70765b81.js.map": "/pedro-institutuional-page/static/js/main.70765b81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.804cd808.css",
+    "static/js/main.70765b81.js"
+  ]
+}
