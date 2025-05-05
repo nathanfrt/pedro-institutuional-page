@@ -27,7 +27,7 @@ function Hero() {
   return (
     <div className={`container ${styles.hero}`} id="telemedicina">
       <section className={styles.sectionHero}>
-      <div className={styles.heroIntroduction}>
+      <div className={styles.introduction}>
           <p>Atendimentos em Psiquiatria</p>
           <p>
             Cuidar da saúde mental é essencial para viver com mais equilíbrio e qualidade de vida. Isso ajuda a enfrentar desafios,

@@ -2,9 +2,6 @@
 
 .iconService { width: 90%; border-radius: 15px; box-shadow: 0 10px 8px rgba(0, 0, 0, 0.20); }
 
-
-
-
 @media (max-width: 768px) {
 
     .clinicIntroduction p:first-child { text-align: center; font-size: 24px;}
@@ -13,6 +10,6 @@
     .clinicIntroduction p:first-child { font-size: 24px; margin-bottom: 15px; }
 
     .iconService {margin-top: 30px; }
-    .card { margin: 25px auto; }    
+    .cards { margin: 25px auto !important; }    
 
 }

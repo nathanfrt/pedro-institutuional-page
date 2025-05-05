@@ -17,16 +17,16 @@
 
 .closeBtn { position: absolute; top: 15px; right: 20px; font-size: 40px; background: transparent !important; border: 2px solid black; cursor: pointer !important; padding: 0px 10px !important; line-height: 40px; }
 
-.approachesCard, .modalCards {  margin: 0px 55px; display: flex;flex-direction: row; flex-wrap: wrap;}
+.card, .modalCards {  margin: 0px 55px; display: flex;flex-direction: row; flex-wrap: wrap;}
 
-.approachesIntroduction { display: flex; align-items: center; text-align: center; width: 100%; color: #448e82; }
-.approachesIntroduction::before, .approachesIntroduction::after { content: ""; flex: 1 1; border-bottom: 2px solid #009688; margin: 0 20px; }
+.introduction { display: flex; align-items: center; text-align: center; width: 100%; color: #448e82; }
+.introduction::before, .introduction::after { content: ""; flex: 1 1; border-bottom: 2px solid #009688; margin: 0 20px; }
 
-.approachesIntroduction p { white-space: nowrap; font-weight: bold; }
-.approachesIntroduction p:first-child { text-align: center; font-size: 30px; font-weight: bold;  }
+.introduction p { white-space: nowrap; font-weight: bold; }
+.introduction p:first-child { text-align: center; font-size: 30px; font-weight: bold;  }
 
-.approachesCard button:hover, .modalCards .buttonp:hover { background: #39776d !important; }
-.approachesCard .description, .modalCards .description { position: relative; text-align: center; margin: 20px !important; }
+.card button:hover, .modalCards .buttonp:hover { background: #39776d !important; }
+.card .description, .modalCards .description { position: relative; text-align: center; margin: 20px !important; }
 
 .buttons button:first-child { background: #1e232f !important; margin-bottom: 20px !important; }
 .buttons button:first-child:hover { background: #414a61 !important; }
@@ -38,12 +38,14 @@
 
 
 @media (max-width: 768px) {
-    .approachesCard { margin: 0px 10px; }
+    .approaches{ margin: 45px auto;}
+    .card { margin: 0px 10px; }
 
-    .approachesIntroduction p:first-child { font-size: 24px; margin: auto; }
-    .approachesIntroduction::before, .approachesIntroduction::after{ display: none;}
+    .buttons br {display: none;}
+    .introduction p:first-child { font-size: 24px; margin: auto; }
+    .introduction::before, .introduction::after{ display: none;}
 
-    .theme .icon-card, .modalCards .iconCard { width: 20%; }
+    .theme .iconCard, .modalCards .iconCard { width: 20%; }
 
     .theme .content{ height: 250px; }
     .theme .content .title , .modalCards .content .title { font-size: 18px; }

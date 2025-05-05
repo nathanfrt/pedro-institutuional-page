@@ -11,6 +11,7 @@ function Header() {
 
     const [menuOpen, setMenuOpen] = useState(false);
     const navItems = [
+        { label: "Home", href: "#home" },
         { label: "Saúde Mental", href: "#saude-mental" },
         { label: "Sobre mim", href: "#sobre-mim" },
         { label: "Consultório", href: "#consultorio" },
@@ -19,7 +20,7 @@ function Header() {
     ];
 
     return (
-        <div className={`container ${styles.headerC}`}>
+        <div className={`container ${styles.headerC}`} id="home">
             <header className={`d-flex align-items-center ${styles.header}`}>
                 <img src={logo} alt="Logo Dr. Pedro Siqueira" className={styles.logo} />
 

@@ -1,12 +1,11 @@
 import logo from "../../Images/logo preto.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Footer() {
+function Prefooter() {
     return (
-
-        <div className="container prefooter animate-on-visible ">
+        <div className="container prefooter">
             <section className="prefooter-section">
-                <div className="logo-footer">
+                <div className="logoFooter">
                     <img src={logo} />
                 </div>
             </section>
@@ -14,4 +13,4 @@ function Footer() {
     );
 }
 
-export default Footer;
+export default Prefooter;

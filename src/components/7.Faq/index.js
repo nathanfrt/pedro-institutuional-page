@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import './Questions.css';
+import styles from'./Faq.module.css';
 
 function Questions() {
     useEffect(() => {
@@ -25,11 +25,23 @@ function Questions() {
         },
         {
             question: "Qual telefone de contato?",
-            answer: "O telefone de contato é o (31) 99505-4490. Este também é o número do WhatsApp, basta clicar aqui para conversar no WhatsApp."
+            answer: (
+                <>
+                  O telefone de contato é o (31) 99505-4490. Este também é o número do WhatsApp, basta{" "}
+                  <a
+                    href="https://wa.me/31995054490"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "white", textDecoration: "underline" }}
+                  >
+                    clicar aqui para conversar no WhatsApp
+                  </a>.
+                </>
+              )
         },
         {
             question: "Como acontecem os atendimentos por telemedicina?",
-            answer: "Sim, é possível fazer uma consulta online com Dr. Pedro. A telemedicina está regulamentada no Brasil. Entre em contato para combinarmos o melhor horário (agende sua consulta)."
+            answer: "Sim, é possível fazer uma consulta online com Dr. Pedro. A telemedicina está regulamentada no Brasil. Entre em contato para combinarmos o melhor horário."
         },
         {
             question: "Não quero ficar dependente de medicamentos",
@@ -53,20 +65,20 @@ function Questions() {
     };
 
     return (
-        <div className="container faq">
-            <section className="section-faq">
-                <div className="faq-introduction">
-                    <p className="section-title">Perguntas Frequentes</p>
+        <div className={`container ${styles.faq}`}>
+            <section className={styles.card}>
+                <div className={styles.introduction}>
+                    <p className="title">Perguntas Frequentes</p>
                 </div>
 
-                <div className="faq-cards animate-on-visible ">
+                <div className={`${styles.cards} animate-on-visible`}>
                     {faqs.map((faq, index) => (
-                        <div key={index} className="faq-item">
-                            <div className="faq-question" onClick={toggleFaq}>
+                        <div key={index} className="item">
+                            <div className="question" onClick={toggleFaq}>
                                 <span className="toggle-icon">⮟</span>
                                 <span>{faq.question}</span>
                             </div>
-                            <div className="faq-answer">{faq.answer}</div>
+                            <div className="answer">{faq.answer}</div>
                         </div>
                     ))}
                 </div>

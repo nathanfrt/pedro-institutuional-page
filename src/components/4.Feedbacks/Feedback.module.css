@@ -1,2 +1,6 @@
 .feedbacks { background: #ebebeb !important; padding: 5% 10%; max-width: max-content; }
 .feedbackIntroduction p:first-child { text-align: center; font-size: 30px; font-weight: bold; margin-bottom: 40px; }
+
+@media (max-width: 768px) {
+    .feedbackIntroduction p:first-child { font-size: 20px; } 
+}

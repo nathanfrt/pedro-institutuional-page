@@ -1,0 +1,33 @@
+.section div > .content:nth-of-type(2) { color: #212529 !important; background: white !important; }
+.content > div:first-child { margin: 40px !important; }
+
+.introduction p:first-child { text-align: center; font-size: 30px; font-weight: bold; margin-bottom: 40px; }
+.introduction .description { padding: 20px; font-size: 18px; text-align: justify; margin: 10px 40px; }
+
+.contact .introduction button { margin-top: -33px !important; z-index: 9; display: flex; }
+.contact { color: white; max-width: max-content;  background: linear-gradient(to right, #212529 50%, #ffffff 50%); display: flex;}
+
+.card { align-items: normal !important; flex-wrap: wrap; }
+
+.content:first-child { background: #212529; color: white; }
+.content button { display: flex; flex-direction: column; flex-wrap: wrap; margin-bottom: 20px !important; width: 240px; }
+
+.informations p, .introduction p { margin: 40px; text-align: center; }
+.informations p { font-size: 12px;}
+.informations { margin: 0px 50px; }
+
+.buttonGroup { display: flex; flex-direction: column; gap: 10px; }
+
+@media (max-width: 768px) {
+    .introduction p, .informations p { margin: 11px 0px; text-align: center; font-weight: 300;}
+    .introduction p:first-child{font-size: 20px; }
+    .introduction p:nth-of-type(2){font-size: 14px; }
+
+    .informations p {font-size: 10px; }
+
+    .contact { background: linear-gradient(to bottom, #212529 50%, #ffffff 50%)}
+    .content button { width: 185px; }
+
+    .section div > .content:nth-of-type(2) {background: #7cb9af !important; border-radius: 50px; }
+
+}

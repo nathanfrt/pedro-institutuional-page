@@ -17,7 +17,7 @@ function Clinic() {
                 Cada consulta tem, em média, <strong>1 hora de duração, proporcionando um atendimento de qualidade</strong> com uma abordagem centrada no paciente. <br /><br />
                 <strong>Oferecemos suporte contínuo por meio do WhatsApp e E-mail.</strong> <br /><br />
                 Criamos um ambiente seguro e acolhedor, onde cada paciente é ouvido, compreendido e valorizado. Cuidamos de cada detalhe para garantir uma experiência positiva e confortável, pois acreditamos que um espaço aconchegante faz toda a diferença!
-              </p>
+              </p><br/>
               <button className="btn btn-success animate-on-visible">
                 <a href="https://wa.me/5531995054490?text=Ol%C3%A1,%20Dr.%20Pedro!%20%F0%9F%A7%A0%F0%9F%98%8A%0A%0AEncontrei%20o%20seu%20site%20e%20me%20interessei%20pela%20consulta.%20Gostaria%20de%20saber%20como%20funciona%20o%20atendimento%20e%20quais%20s%C3%A3o%20as%20op%C3%A7%C3%B5es%20dispon%C3%ADveis.%0AObrigado(a)!">
                   <img src={calender} alt="Ícone calendário" className="calenderImg" />

@@ -11,8 +11,6 @@ nav a:hover, nav a:focus { color: #198754 !important; }
 nav a::after { content: ''; transition: width 0.3s ease; }
 nav a:hover::after, nav a:focus::after { width: 100%; }
 
-.calenderImg { width: 30px; margin-right: 10px; }
-
 .profileImg { width: 100%; position: relative; display: block; }
 .linha { height: 1px; background-color: #6c757d; }
 
@@ -23,7 +21,7 @@ nav a:hover::after, nav a:focus::after { width: 100%; }
 
 .headerC { padding-top: 3rem !important; padding-bottom: 0rem !important; }
 
-.hamburger { display: none; flex-direction: column; cursor: pointer; gap: 5px; z-index: 2000; }
+.hamburger { display: none; flex-direction: column; cursor: pointer; gap: 5px; z-index: 2000; position: fixed; flex-wrap: nowrap; align-items: flex-end;}
 .hamburger span { width: 25px; height: 3px; background-color: #212552; transition: all 0.3s ease; }
 
 .hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
@@ -48,6 +46,15 @@ nav a:hover::after, nav a:focus::after { width: 100%; }
 
   .navLinks { position: absolute; top: 0px; left: 0; right: 0; background: white; flex-direction: column; align-items: center; gap: 1.5rem; padding: 20px 0; transform: translateY(-150%); opacity: 0; pointer-events: none; }
   .navLinks.open { transform: translateY(0); opacity: 1; pointer-events: all; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); background: #448e82; }
+  nav > a {
+    margin: -5px;
+    padding: 0px 16px;
+    border-bottom: 0.2px solid #57b1a2;
+    font-size: 11px !important;
+    width: 80%;
+    text-align: center;
+}
+
 
   .hamburger { display: flex; position: absolute; background: white; padding: 15px 10px; border-radius: 5px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); }
 }

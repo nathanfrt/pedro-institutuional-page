@@ -6,8 +6,8 @@ import Services from "./components/5.Clinic";
 import Topics from "./components/6.Approaches";
 import Questions from "./components/7.Faq";
 import Location from "./components/8.Contact";
-import Footer from "./components/9.Footer";
-import Prefooter from "./components/10.Prefooter";
+import Prefooter from "./components/9.Prefooter";
+import Footer from "./components/10.Footer";
 import WhatsAppButton from "./components/Whastapp";
 
 

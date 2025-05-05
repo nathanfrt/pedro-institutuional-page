@@ -1,4 +1,4 @@
-import styles from "./Location.css";
+import styles from "./Contact.module.css";
 import GoogleMap from './GoogleMap';
 import whatsApp from "../../Images/whastapp.png";
 import instagram from "../../Images/instagram.png";
@@ -9,11 +9,11 @@ function Feedbacks() {
     const contactText = "Olá, Dr. Pedro! 🧑‍⚕️🙂\n\nEncontrei seu site e me interessei pela consulta. Gostaria de saber como funciona o atendimento e quais são as opções disponíveis.\nObrigado(a)!";
 
     return (
-        <div className="container contact" id="contato">
-            <section className="contact-section">
-                <div className="d-flex justify-content-between align-items-center mb-5 contact-card">
-                    <div className="col-lg-6 col-md-12 content-card">
-                        <div className="contact-introduction">
+        <div className={`container ${styles.contact}`} id="contato">
+            <section className={styles.section}>
+                <div className={`d-flex justify-content-between align-items-center mb-5 ${styles.card}`}>
+                    <div className={`col-lg-6 col-md-12 ${styles.content}`}>
+                        <div className={styles.introduction}>
                             <p>Entre em Contato</p>
                             <p>
                                 Indique o melhor horário que gostaria de ser atendido.<br />
@@ -21,7 +21,7 @@ function Feedbacks() {
                             </p>
                         </div>
 
-                        <div className="button-group animate-on-visible ">
+                        <div className={`${styles.buttonGroup} animate-on-visible `}>
                             <ButtonLink
                                 href={`https://wa.me/5531995054490?text=${encodeURIComponent(contactText)}`}
                                 text="Agendar consulta"
@@ -39,7 +39,7 @@ function Feedbacks() {
                             />
                         </div>
 
-                        <div className="contact-informations">
+                        <div className={styles.informations}>
                             <p>
                                 Para pacientes de outras cidades ou países, ofereço consultas online com a mesma qualidade e sigilo do atendimento presencial.
                                 Atenda-se de qualquer lugar com conforto e segurança.
@@ -48,8 +48,8 @@ function Feedbacks() {
                         </div>
                     </div>
 
-                    <div className="col-lg-6 col-md-12 content-card">
-                        <div className="contact-introduction">
+                    <div className={`col-lg-6 col-md-12 ${styles.content}`}>
+                        <div className={styles.introduction}>
                             <p>Onde estou localizado?</p>
                             <p>Av. Afonso Pena, 2770 - Savassi, Belo Horizonte - MG, 30130-012</p>
                         </div>
@@ -62,7 +62,7 @@ function Feedbacks() {
 }
 
 const ButtonLink = ({ href, text, img }) => (
-    <button className="btn btn-success buttonp">
+    <button className="btn btn-success">
         <a href={href} className="d-flex align-items-center gap-2">
             {img && <img src={img} alt={text} style={{ height: "25px" }} />}
             <span>{text}</span>

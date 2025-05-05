@@ -13,6 +13,8 @@ import trauma from "../../Images/tept.png";
 import humor from "../../Images/mudancas-de-humor.png";
 import alimentar from "../../Images/transtorno-alimentar.png";
 import frustado from "../../Images/frustrado.png";
+import calender from "../../Images/calendar.png";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Topics() {
@@ -96,12 +98,12 @@ function Topics() {
 
   return (
     <div className={`container ${styles.approaches}`} id="saude-mental">
-      <section className={`${styles.sectionApproaches}`}>
-        <div className={`${styles.approachesIntroduction}`}>
-          <p className={`${styles.sectionTitle}`}>Temas que atendo</p>
+      <section className={`${styles.section}`}>
+        <div className={`${styles.introduction}`}>
+          <p className={`${styles.title}`}>Temas que atendo</p>
         </div>
 
-        <div className={`d-flex justify-content-between align-items-start mb-5 flex-wrap ${styles.approachesCard}`}>
+        <div className={`d-flex justify-content-between align-items-start mb-5 flex-wrap ${styles.card}`}>
           {cards.map((card, index) => (
             <div key={index} className={`col-lg-4 col-md-12 ${styles.theme} animate-on-visible`}>
               <div className={styles.content}>
@@ -122,6 +124,7 @@ function Topics() {
           <br />
           <button className="btn btn-success">
             <a href="https://wa.me/5531995054490?text=Ol%C3%A1,%20Dr.%20Pedro!" className="text-white text-decoration-none">
+            <img src={calender} alt="Ícone calendário" className="calenderImg" />
               Marque sua consulta
             </a>
           </button>

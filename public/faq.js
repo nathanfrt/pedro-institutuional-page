@@ -1,10 +1,10 @@
 window.toggleFaq = function (clicked) {
-  const allItems = document.querySelectorAll('.faq-item');
+  const allItems = document.querySelectorAll('.item');
 
   allItems.forEach(item => {
-    const answer = item.querySelector('.faq-answer');
+    const answer = item.querySelector('.answer');
     const icon = item.querySelector('.toggle-icon');
-    if (item.querySelector('.faq-question') !== clicked) {
+    if (item.querySelector('.question') !== clicked) {
       answer.classList.remove('show');
       icon.textContent = '⮟';
     }
