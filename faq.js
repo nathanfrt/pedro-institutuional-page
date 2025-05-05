@@ -17,5 +17,3 @@ window.toggleFaq = function (clicked) {
   answer.classList.toggle('show');
   icon.textContent = isOpen ? '⮟' : '—';
 };
-
-
