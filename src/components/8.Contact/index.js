@@ -6,7 +6,7 @@ import calender from "../../Images/calendar.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Feedbacks() {
-    const contactText = "Olá, Dr. Pedro! 🧑‍⚕️🙂\n\nEncontrei seu site e me interessei pela consulta. Gostaria de saber como funciona o atendimento e quais são as opções disponíveis.\nObrigado(a)!";
+    const contactText = "Olá, Dr. Pedro!\n\nEncontrei seu site e me interessei pela consulta. Gostaria de saber como funciona o atendimento e quais são as opções disponíveis.\n\nObrigado(a)!";
 
     return (
         <div className={`container ${styles.contact}`} id="contato">

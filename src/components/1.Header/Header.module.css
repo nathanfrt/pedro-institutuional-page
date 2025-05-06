@@ -1,9 +1,24 @@
-.header { justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+.header { justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 50px; flex-wrap: nowrap;}
+.headerC::before {content: "";
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #b9b9b9;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3; /* controla a transparência */
+  z-index: -1;}
 
-.logo { max-width: 17%; transition: transform 0.3s ease; margin: 0 50px; cursor: pointer; }
+  .profile {display: flex
+    ;
+        flex-wrap: wrap;
+        justify-content: flex-end;}
+.logo { max-width: 50%; transition: transform 0.3s ease; margin: 0 50px; cursor: pointer; }
 .logo:hover { transform: scale(1.05); }
 
-.nav { display: flex; gap: 1.5rem; align-items: center; }
+.nav { display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; justify-content: flex-end;}
 .navLinks { transition: all 0.3s ease-in-out; gap: 2.5rem; }
 
 nav a { position: relative; text-decoration: none !important; color: #1e232f !important; font-weight: 600 !important; font-size: 16px !important; margin-top: -35px; transition: color 0.3s ease !important; }
@@ -11,13 +26,12 @@ nav a:hover, nav a:focus { color: #198754 !important; }
 nav a::after { content: ''; transition: width 0.3s ease; }
 nav a:hover::after, nav a:focus::after { width: 100%; }
 
-.profileImg { width: 100%; position: relative; display: block; }
+.profileImg { width: 85%; top: 25px; position: relative; display: block;  margin-bottom: 60px; box-shadow: 0 10px 21px rgba(0, 0, 0, 0.4);}
 .linha { height: 1px; background-color: #6c757d; }
 
 .main { margin-left: 50px !important; }
-.menuTitle { padding: 0 50px; }
 .menuTitle span:first-child { font-size: 42px; }
-.menuTitle p { font-size: 20px !important; }
+.menuTitle p { font-size: 20px !important; max-width: 78%;}
 
 .headerC { padding-top: 3rem !important; padding-bottom: 0rem !important; }
 
@@ -28,16 +42,21 @@ nav a:hover::after, nav a:focus::after { width: 100%; }
 .hamburger.open span:nth-child(2) { opacity: 0; }
 .hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(6px, -6px); }
 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .menuTitle p { font-size: 20px !important; max-width: 100%;}
+  button {margin-top: -25px !important;}
+}
 
 @media (max-width: 768px) {
-
+  
   .menuTitle span:first-child { font-size: 30px; }
-  .menuTitle p { font-size: 14px !important; }
+  .menuTitle p { font-size: 14px !important; max-width: 100%;}
   .menuTitle br:nth-of-type(2), .menuTitle br:nth-of-type(5) { display: none; }
   
   .text-muted { font-size: 14px; }
   .logo { max-width: 35%; margin: auto; }
   .profileImg { width: 100%; }
+  .imgMobile { display: flex ;}
 
   .header { margin-bottom: 0px !important; }
   .header .gap-5 { gap: 12px !important; }
@@ -46,22 +65,13 @@ nav a:hover::after, nav a:focus::after { width: 100%; }
 
   .hamburger { display: flex; position: fixed; background: white; padding: 10px 5px; border-radius: 5px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); top: 20px; margin-right: 15px; }
 
-  .navLinks { position: fixed; top: 0px; left: 0; right: 0; background: white; flex-direction: column; align-items: center; gap: 1.5rem; padding: 20px 0; 
+  nav > a { margin: 1px 30px; width: max-content; border-bottom: 0.1px solid #e1e1e1; font-size: 13px !important; letter-spacing: 2px; text-transform: uppercase; }
+  .nav { display: flex; gap: 1.5rem; flex-wrap: wrap; align-content: flex-start; }
+  
+  .navLinks { position: fixed; top: 0px; left: 0; right: 0; background: white; flex-direction: column; align-items: start; gap: 0.5rem; padding: 20px 0; 
     transform: translateY(-150%); opacity: 0; pointer-events: none; }
 
   .navLinks.open { transform: translateY(0); opacity: 1; pointer-events: all; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); background: white; z-index: 99;
     background-image: url(/src/Images/logo\ preto.png); background-size: 150px; padding: 45px 0px; background-position-y: 75px; background-repeat: no-repeat; background-position-x: 220px;}
-  
-      nav > a {
-        margin: -7px auto;
-        padding: 0px 30px;
-        width: 190px;
-        right: 155px;
-        border-bottom: 0.1px solid #e1e1e1;
-        font-size: 13px !important;
-        text-align: left;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-    }
-  
+    
 }

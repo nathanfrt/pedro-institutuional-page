@@ -3,8 +3,9 @@ import wpp from '../../Images/whatsappf.png'
 import './WhatsAppButton.css'; 
 
 const WhatsAppButton = () => {
+  const contactText = "Olá, Dr. Pedro!\n\nEncontrei seu site e me interessei pela consulta. Gostaria de saber como funciona o atendimento e quais são as opções disponíveis.\n\nObrigado(a)!";
   const phoneNumber = '5531995054490';
-  const message = encodeURIComponent('Olá, Dr. Pedro! Encontrei seu site e me interessei pela consulta. Gostaria de saber como funciona o atendimento e quais são as opções disponíveis. Obrigado(a)!');
+  const message = `${encodeURIComponent(contactText)}`;
   const link = `https://wa.me/${phoneNumber}?text=${message}`;
 
   return (

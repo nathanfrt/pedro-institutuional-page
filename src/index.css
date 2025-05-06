@@ -32,7 +32,7 @@ button a { color: white; text-decoration: none; }
 .question span:last-child { margin-left: 20px; }
 
 .answer { max-height: 0; overflow: hidden; opacity: 0; transition: all 0.3s ease; margin-top: 10px; }
-.answer.show { font-size: 18px; font-weight: 200; margin-left: 45px; max-height: 300px; opacity: 1;}
+.answer.show { font-size: 18px; font-weight: 200; margin-left: 45px; max-height: 900px; opacity: 1;}
 
 .rotate { transform: rotate(180deg);}
 /*Fim regras do FAQ*/

@@ -18,6 +18,7 @@ import calender from "../../Images/calendar.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Topics() {
+  const contactText = "Olá, Dr. Pedro!\n\nEncontrei seu site e me interessei pela consulta. Gostaria de saber como funciona o atendimento e quais são as opções disponíveis.\n\nObrigado(a)!";
   const [showModal, setShowModal] = useState(false);
 
   const cards = [
@@ -123,7 +124,7 @@ function Topics() {
           </button>
           <br />
           <button className="btn btn-success">
-            <a href="https://wa.me/5531995054490?text=Ol%C3%A1,%20Dr.%20Pedro!" className="text-white text-decoration-none">
+            <a target="_blank" href={`https://wa.me/5531995054490?text=${encodeURIComponent(contactText)}`} className="text-white text-decoration-none">
             <img src={calender} alt="Ícone calendário" className="calenderImg" />
               Marque sua consulta
             </a>

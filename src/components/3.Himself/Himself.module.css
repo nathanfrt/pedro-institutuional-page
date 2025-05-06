@@ -17,3 +17,7 @@
 
     .himselfCard { margin-top: 30px;}
 }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .herselfCard{align-items: center !important;}
+  }
