@@ -22,9 +22,9 @@ nav a:hover::after, nav a:focus::after { width: 100%; }
 .headerC { padding-top: 3rem !important; padding-bottom: 0rem !important; }
 
 .hamburger { display: none; flex-direction: column; cursor: pointer; gap: 5px; z-index: 2000; position: fixed; flex-wrap: nowrap; align-items: flex-end;}
-.hamburger span { width: 25px; height: 3px; background-color: #212552; transition: all 0.3s ease; }
+.hamburger span { width: 25px; height: 2px; background-color: #212552; transition: all 0.3s ease;}
 
-.hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+.hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(4px, 4px); }
 .hamburger.open span:nth-child(2) { opacity: 0; }
 .hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(6px, -6px); }
 
@@ -44,13 +44,24 @@ nav a:hover::after, nav a:focus::after { width: 100%; }
 
   .main { margin: 0px 10px !important; text-align: center; }
 
-  .hamburger { display: flex; position: fixed; background: white; padding: 15px 10px; border-radius: 5px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); }
+  .hamburger { display: flex; position: fixed; background: white; padding: 10px 5px; border-radius: 5px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); margin-top: -25%; margin-left: 65%; }
 
-  .navLinks { position: fixed; top: 0px; left: 0; right: 0; background: white; flex-direction: column; align-items: center; gap: 1.5rem; padding: 20px 0; transform: translateY(-150%); opacity: 0; pointer-events: none; }
-  .navLinks.open { transform: translateY(0); opacity: 1; pointer-events: all; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); background: #448e82; }
+  .navLinks { position: fixed; top: 0px; left: 0; right: 0; background: white; flex-direction: column; align-items: center; gap: 1.5rem; padding: 20px 0; 
+    transform: translateY(-150%); opacity: 0; pointer-events: none; }
+
+  .navLinks.open { transform: translateY(0); opacity: 1; pointer-events: all; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); background: white; z-index: 99;
+    background-image: url(/src/Images/logo\ preto.png); background-size: 25%; background-position-y: 60%; background-repeat: no-repeat; background-position-x: 65%;}
   
-  nav > a { margin: -5px; padding: 0px 16px; border-bottom: 0.2px solid #57b1a2; font-size: 13px !important; width: 80%; text-align: center;
-}
-
+      nav > a {
+        margin: -7px auto;
+        padding: 0px 30px;
+        width: 38%;
+        right: 155px;
+        border-bottom: 0.1px solid #e1e1e1;
+        font-size: 13px !important;
+        text-align: left;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
   
 }
