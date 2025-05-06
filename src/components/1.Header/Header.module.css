@@ -50,12 +50,12 @@ nav a:hover::after, nav a:focus::after { width: 100%; }
     transform: translateY(-150%); opacity: 0; pointer-events: none; }
 
   .navLinks.open { transform: translateY(0); opacity: 1; pointer-events: all; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); background: white; z-index: 99;
-    background-image: url(/src/Images/logo\ preto.png); background-size: 30%; padding: 45px 0px; background-position-y: 65%; background-repeat: no-repeat; background-position-x: 65%;}
+    background-image: url(/src/Images/logo\ preto.png); background-size: 150px; padding: 45px 0px; background-position-y: 75px; background-repeat: no-repeat; background-position-x: 220px;}
   
       nav > a {
         margin: -7px auto;
         padding: 0px 30px;
-        width: 38%;
+        width: 190px;
         right: 155px;
         border-bottom: 0.1px solid #e1e1e1;
         font-size: 13px !important;
