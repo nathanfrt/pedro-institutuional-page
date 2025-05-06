@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pedro-institutuional-page/static/css/main.0eacdd09.css",
+    "main.css": "/pedro-institutuional-page/static/css/main.be27be11.css",
     "main.js": "/pedro-institutuional-page/static/js/main.9666558c.js",
     "static/media/doutor.jpg": "/pedro-institutuional-page/static/media/doutor.a253ac609cdd13dcb738.jpg",
     "static/media/Sobre.jpeg": "/pedro-institutuional-page/static/media/Sobre.39bbd1c4516f69ab75af.jpeg",
@@ -24,11 +24,11 @@
     "static/media/drugs.png": "/pedro-institutuional-page/static/media/drugs.c45a6b628c3889a7359f.png",
     "static/media/calendar.png": "/pedro-institutuional-page/static/media/calendar.0bc85778586f06a9efb8.png",
     "index.html": "/pedro-institutuional-page/index.html",
-    "main.0eacdd09.css.map": "/pedro-institutuional-page/static/css/main.0eacdd09.css.map",
+    "main.be27be11.css.map": "/pedro-institutuional-page/static/css/main.be27be11.css.map",
     "main.9666558c.js.map": "/pedro-institutuional-page/static/js/main.9666558c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0eacdd09.css",
+    "static/css/main.be27be11.css",
     "static/js/main.9666558c.js"
   ]
 }
