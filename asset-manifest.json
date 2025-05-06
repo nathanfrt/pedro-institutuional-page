@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a75babfa.css",
-    "main.js": "/static/js/main.202b5ab7.js",
+    "main.css": "/static/css/main.1ffc32ea.css",
+    "main.js": "/static/js/main.6cb88eb9.js",
     "static/media/doutor.jpg": "/static/media/doutor.a253ac609cdd13dcb738.jpg",
     "static/media/Sobre.jpeg": "/static/media/Sobre.39bbd1c4516f69ab75af.jpeg",
     "static/media/consultorio.jpeg": "/static/media/consultorio.10e8b5e00c6f8699d65b.jpeg",
@@ -24,11 +24,11 @@
     "static/media/drugs.png": "/static/media/drugs.c45a6b628c3889a7359f.png",
     "static/media/calendar.png": "/static/media/calendar.0bc85778586f06a9efb8.png",
     "index.html": "/index.html",
-    "main.a75babfa.css.map": "/static/css/main.a75babfa.css.map",
-    "main.202b5ab7.js.map": "/static/js/main.202b5ab7.js.map"
+    "main.1ffc32ea.css.map": "/static/css/main.1ffc32ea.css.map",
+    "main.6cb88eb9.js.map": "/static/js/main.6cb88eb9.js.map"
   },
   "entrypoints": [
-    "static/css/main.a75babfa.css",
-    "static/js/main.202b5ab7.js"
+    "static/css/main.1ffc32ea.css",
+    "static/js/main.6cb88eb9.js"
   ]
 }
