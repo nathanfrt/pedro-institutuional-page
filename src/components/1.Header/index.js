@@ -24,14 +24,16 @@ function Header() {
             <header className={`d-flex align-items-center ${styles.header}`}>
                 <img src={logo} alt="Logo Dr. Pedro Siqueira" className={styles.logo} />
 
-                <div
-                    className={`d-md-none ${styles.hamburger} ${menuOpen ? styles.open : ""}`}
-                    onClick={() => setMenuOpen(!menuOpen)}>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+                <div className="d-flex justify-content-end">
+                    <div
+                        className={`d-md-none  ${styles.hamburger} ${menuOpen ? styles.open : ""}`}
+                        onClick={() => setMenuOpen(!menuOpen)}>
+                        <span></span>
+                        <span></span>
+                        <span></span>
 
+                    </div>
+                </div>
                 <nav className={`${styles.nav} ${styles.navLinks} ${menuOpen ? styles.open : ""}`}>
                     {navItems.map(({ label, href }, index) => (
                         <a key={index} href={href}>{label}</a>
