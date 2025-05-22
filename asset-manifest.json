@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8ac06d6d.css",
-    "main.js": "/static/js/main.3e00d1ce.js",
+    "main.css": "/static/css/main.d0901074.css",
+    "main.js": "/static/js/main.bdd27e44.js",
     "static/media/psq.png": "/static/media/psq.a37e93ddbd1a507e17ba.png",
     "static/media/Sobre.jpeg": "/static/media/Sobre.39bbd1c4516f69ab75af.jpeg",
     "static/media/consultorio.jpeg": "/static/media/consultorio.10e8b5e00c6f8699d65b.jpeg",
@@ -23,12 +23,13 @@
     "static/media/fobia.png": "/static/media/fobia.52d35789acdc7838b569.png",
     "static/media/drugs.png": "/static/media/drugs.c45a6b628c3889a7359f.png",
     "static/media/calendar.png": "/static/media/calendar.0bc85778586f06a9efb8.png",
+    "static/media/googleprev.png": "/static/media/googleprev.6cc06118abb0ba3a8064.png",
     "index.html": "/index.html",
-    "main.8ac06d6d.css.map": "/static/css/main.8ac06d6d.css.map",
-    "main.3e00d1ce.js.map": "/static/js/main.3e00d1ce.js.map"
+    "main.d0901074.css.map": "/static/css/main.d0901074.css.map",
+    "main.bdd27e44.js.map": "/static/js/main.bdd27e44.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ac06d6d.css",
-    "static/js/main.3e00d1ce.js"
+    "static/css/main.d0901074.css",
+    "static/js/main.bdd27e44.js"
   ]
 }
