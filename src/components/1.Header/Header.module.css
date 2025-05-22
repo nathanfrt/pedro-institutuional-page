@@ -1,20 +1,7 @@
 .header { justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 50px; flex-wrap: nowrap;}
-.headerC::before {content: "";
-  content: "";
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #b9b9b9;
-  background-size: cover;
-  background-position: center;
-  opacity: 0.3; /* controla a transparência */
-  z-index: -1;}
+.headerC::before {content: ""; content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #b9b9b9; background-size: cover; background-position: center; opacity: 0.3; z-index: -1;}
 
-  .profile {display: flex
-    ;
-        flex-wrap: wrap;
-        justify-content: flex-end;}
+.profile {display: flex; flex-wrap: wrap; justify-content: flex-end;}
 .logo { max-width: 50%; transition: transform 0.3s ease; margin: 0 50px; cursor: pointer; }
 .logo:hover { transform: scale(1.05); }
 
@@ -47,7 +34,7 @@ nav a:hover::after, nav a:focus::after { width: 100%; }
   button {margin-top: -25px !important;}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   
   .menuTitle span:first-child { font-size: 30px; }
   .menuTitle p { font-size: 14px !important; max-width: 100%;}

@@ -4,7 +4,7 @@ import sobre from "../../Images/Sobre.jpeg";
 import calender from "../../Images/calendar.png";
 
 function Himself() {
-  const contactText = "Olá, Dr. Pedro!\n\nEncontrei seu site e me interessei pela consulta. Gostaria de saber como funciona o atendimento e quais são as opções disponíveis.\n\nObrigado(a)!";
+  const contactText = 'https://www.doctoralia.com.br/pedro-henrique-siqueira-2';
 
   return (
     <div className={`container ${styles.himself}`} id="sobre-mim">
@@ -26,7 +26,7 @@ function Himself() {
                 <strong>Será um prazer te ajudar da melhor forma possível, te ouvindo e buscando, junto a você, o melhor tratamento.</strong>
               </p><br/>
               <button className="btn btn-success animate-on-visible ">
-                <a target="_blank" href={`https://wa.me/5531995054490?text=${encodeURIComponent(contactText)}`}>
+                <a target="_blank" href={contactText}>
                 <img src={calender} alt="Ícone calendário" className="calenderImg" />
                   Marque sua consulta
                 </a>

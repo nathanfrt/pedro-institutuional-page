@@ -6,7 +6,7 @@ import calender from "../../Images/calendar.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Feedbacks() {
-    const contactText = "Olá, Dr. Pedro!\n\nEncontrei seu site e me interessei pela consulta. Gostaria de saber como funciona o atendimento e quais são as opções disponíveis.\n\nObrigado(a)!";
+    const contactText = 'https://www.doctoralia.com.br/pedro-henrique-siqueira-2';
 
     return (
         <div className={`container ${styles.contact}`} id="contato">
@@ -23,7 +23,7 @@ function Feedbacks() {
 
                         <div className={`${styles.buttonGroup} animate-on-visible `}>
                             <ButtonLink
-                                href={`https://wa.me/5531995054490?text=${encodeURIComponent(contactText)}`}
+                                href={contactText}
                                 text="Agendar consulta"
                                 img={calender}
                             />

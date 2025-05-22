@@ -1,6 +1,89 @@
 .feedbacks { background: #ebebeb !important; padding: 5% 10%; max-width: max-content; }
-.feedbackIntroduction p:first-child { text-align: center; font-size: 30px; font-weight: bold; margin-bottom: 40px; }
+.feedbackIntroduction p:first-child { font-size: 30px; font-weight: bold; margin-bottom: 40px; }
+.feedbackIntroduction p:last-child { font-size: 18px; margin: 0% 12%; }
+.feedbackIntroduction, .feedbackIntroduction a {text-align: center; color: #1e232f !important; text-decoration: none;}
+
+.himselfCard { margin-top: 50px; flex-wrap: wrap; }
+
+.slideNav { padding: 30px 90px; }
+
+.cardImg { display: flex; margin: 0px 0px 20px; align-items: flex-end; }
+.cardImg p { font-size: 22px; font-weight: 600; color: #1e232f; }
+
+.slideItem { width: 60px; margin: auto 0px auto auto; text-align: end; opacity: 0.2; }
+
+.slideDescription { text-align: center; font-size: 18px;  font-style: italic; }
+.slideTitle { text-align: center; font-weight: 600; margin-top: 30px;}
+
+.imgFeedback {width: 220px;}
+
+.cardsImg { text-align: center; }
+.cardsImg img { width: 150px; }
+.cardsImg button { background-color: #dbdbdb !important; border-color: transparent !important; margin: 10px 20px !important; position: relative; top: 20px; }
+
+.commentsReview img {width: 225px ; margin: 20px 0px;}
+.commentsReview p:first-child  {font-size: 10px; }
+
+.herselfCard {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.slideNav {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  text-align: center;
+}
+
+.slideItem {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Evita overflow dos slides */
+.slideNav {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+/* Garante que o Swiper ocupe somente a largura da tela */
+.swiper {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Impede rolagem horizontal no container principal */
+.feedbacks {
+  overflow-x: hidden;
+}
+
+
 
 @media (max-width: 768px) {
     .feedbackIntroduction p:first-child { font-size: 20px; } 
+    .feedbackIntroduction p:last-child { font-size: 14px !important; margin: 10px 0px !important; }
+    .feedbacksCard {
+    padding: 1rem;
+  }
+
+  .cardsImg {
+    flex-direction: column;
+    gap: 10px;    
+  }
+
+  .cardsImg button {
+    margin: auto !important;
+    margin-bottom: 20px !important;
+  }
+
+  .card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

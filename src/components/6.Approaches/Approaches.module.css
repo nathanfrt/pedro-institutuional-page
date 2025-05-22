@@ -47,7 +47,7 @@
 
     .theme .iconCard, .modalCards .iconCard { width: 20%; }
 
-    .theme .content{ height: 250px; }
+    .theme .content{ height: 280px; }
     .theme .content .title , .modalCards .content .title { font-size: 18px; }
     .theme .content .icon, .modalCards .content .icon { margin: 0px 17px; }
     .theme .content .description, .modalCards .content .description { font-size: 14px; margin: 0px 20px !important; }
@@ -55,6 +55,6 @@
     .modalCards { margin: 0px; }
     .modalContent { padding: 15px; }
 
-    .closeBtn { position: fixed; top: 15%; background: #009688 !important; font-size: 40px !important; }
+    .closeBtn { position: fixed; top: 6%; background: #ebe7e9 !important; font-size: 40px !important; }
     .closeBtn p{ font-size: 23px; text-align: center; FONT-WEIGHT: 600; }
 }

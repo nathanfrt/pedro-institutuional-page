@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Header() {
     useAnimateOnVisible();
 
-    const contactText = "Olá, Dr. Pedro!\n\nEncontrei seu site e me interessei pela consulta. Gostaria de saber como funciona o atendimento e quais são as opções disponíveis.\n\nObrigado(a)!";
+    const contactText = 'https://www.doctoralia.com.br/pedro-henrique-siqueira-2';
     const [menuOpen, setMenuOpen] = useState(false);
     const navItems = [
         { label: "Home", href: "#home" },
@@ -55,7 +55,7 @@ function Header() {
                         Sou médico formado pela <strong>Universidade Federal do Rio de Janeiro (UFRJ)</strong> com <strong>Honraria Acadêmica Cum Laude</strong> e faço parte da equipe médica de residência de psiquiatria do <strong>Hospital da Polícia Militar de Minas Gerais (HPM-MG)</strong>.
                     </p><br /><br />
                     <button className={`btn ${styles.buttonP}`}>
-                        <a target="_blank" href={`https://wa.me/5531995054490?text=${encodeURIComponent(contactText)}`}>
+                        <a target="_blank" href={contactText}>
                             <img src={calender} alt="Ícone calendário" className="calenderImg" />
                             Agende sua consulta
                         </a>

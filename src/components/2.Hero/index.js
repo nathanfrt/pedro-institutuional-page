@@ -6,7 +6,7 @@ import medicine from "../../Images/drugs.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Hero() {
-  const contactText = "Olá, Dr. Pedro!\n\nEncontrei seu site e me interessei pela consulta. Gostaria de saber como funciona o atendimento e quais são as opções disponíveis.\n\nObrigado(a)!";  
+  const contactText = 'https://www.doctoralia.com.br/pedro-henrique-siqueira-2';
   const cards = [
     {
       icon: chat,
@@ -45,7 +45,7 @@ function Hero() {
                 <p className={`${styles.description}`}>{item.desc}</p>
               </div>
               <button className={`btn btn-success`}>
-                <a target="_blank" href={`https://wa.me/5531995054490?text=${encodeURIComponent(contactText)}`}>
+                <a target="_blank" href={contactText}>
                   Agendar
                 </a>
               </button>

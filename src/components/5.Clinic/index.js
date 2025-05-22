@@ -4,7 +4,7 @@ import consultorio from "../../Images/consultorio.jpeg";
 import calender from "../../Images/calendar.png";
 
 function Clinic() {
-  const contactText = "Olá, Dr. Pedro!\n\nEncontrei seu site e me interessei pela consulta. Gostaria de saber como funciona o atendimento e quais são as opções disponíveis.\n\nObrigado(a)!";
+  const contactText = 'https://www.doctoralia.com.br/pedro-henrique-siqueira-2';
 
   return (
     <div className={`container ${styles.clinic}`} id="consultorio">
@@ -21,7 +21,7 @@ function Clinic() {
                 Criamos um ambiente seguro e acolhedor, onde cada paciente é ouvido, compreendido e valorizado. Cuidamos de cada detalhe para garantir uma experiência positiva e confortável, pois acreditamos que um espaço aconchegante faz toda a diferença!
               </p><br/>
               <button className="btn btn-success animate-on-visible">
-                <a target="_blank" href={`https://wa.me/5531995054490?text=${encodeURIComponent(contactText)}`}>
+                <a target="_blank" href={contactText}>
                   <img src={calender} alt="Ícone calendário" className="calenderImg" />
                   Agende sua consulta
                 </a>
