@@ -98,7 +98,7 @@ function Feedbacks() {
                             <a href={googleReviewURL}>
                             <span>Excelente</span><br/>
                             <img src={stars} />
-                            <p>Com base em <b>40 avaliações</b></p>
+                            <p>Com base em <b>20 avaliações</b></p>
                             <img src={google} />
                             </a>
                         </div>
