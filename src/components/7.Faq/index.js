@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react';
 import styles from './Faq.module.css';
 
+import opened from "../../Images/opened.png";
+import closed from "../../Images/closed.png";
+
 function Questions() {
     useEffect(() => {
         const script = document.createElement('script');
@@ -102,7 +105,7 @@ function Questions() {
                     {faqs.map((faq, index) => (
                         <div key={index} className="item">
                             <div className="question" onClick={toggleFaq}>
-                                <span className="toggle-icon">⮟</span>
+                                <span className="toggle-icon"><img src={opened}/></span>
                                 <span>{faq.question}</span>
                             </div>
                             <div className="answer">{faq.answer}</div>

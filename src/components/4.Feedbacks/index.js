@@ -5,6 +5,7 @@ import close from "../../Images/close.png";
 import doctoralia from "../../Images/doctorl.png";
 import insta from "../../Images/insta.png";
 import googleReview from "../../Images/googleprev.png";
+import google from "../../Images/google.png";
 import stars from "../../Images/stars.png";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -90,10 +91,18 @@ function Feedbacks() {
                     <div className={`${styles.feedbackIntroduction}`}>
                         <p>Depoimentos de Pacientes</p>
                         <p>Convido você a conhecer as experiências de outros pacientes acessando <a href={doctoraliaURL}>meu perfil no
-                            <b> Doctoralia</b></a> ou realizando uma <a href={googleSearchURL}>busca pelo meu nome no <b>Google.</b></a></p>
+                            <b> Doctoralia</b></a> ou pelas <a href={googleSearchURL}>avaliações no <b>Google.</b></a></p>
                     </div>
                     <div className={styles.cardsImg}>
-                        <button className="btn btn-success animate-on-visible ">
+                        <div className={styles.cardReviewGoogle}>
+                            <a href={googleReviewURL}>
+                            <span>Excelente</span><br/>
+                            <img src={stars} />
+                            <p>Com base em <b>40 avaliações</b></p>
+                            <img src={google} />
+                            </a>
+                        </div>
+                        {/* <button className="btn btn-success animate-on-visible ">
                             <a target="_blank" href={doctoraliaURL}>
                                 <img src={doctoralia} alt="Ícone Google" className="doctorImg" />
                             </a>
@@ -109,8 +118,8 @@ function Feedbacks() {
                             <a target="_blank" href={googleReviewURL}>
                                 <img src={googleReview} alt="Ícone Google" className="googleImg" />
                             </a>
-                        </button>
-                    </div> <br /><br /><br />
+                        </button> */}
+                    </div> 
                 </div>
 
 

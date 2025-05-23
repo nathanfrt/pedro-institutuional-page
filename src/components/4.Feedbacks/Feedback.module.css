@@ -18,72 +18,34 @@
 .imgFeedback {width: 220px;}
 
 .cardsImg { text-align: center; }
-.cardsImg img { width: 150px; }
+.cardsImg img { width: 200px; }
 .cardsImg button { background-color: #dbdbdb !important; border-color: transparent !important; margin: 10px 20px !important; position: relative; top: 20px; }
 
 .commentsReview img {width: 225px ; margin: 20px 0px;}
 .commentsReview p:first-child  {font-size: 10px; }
 
-.herselfCard {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
-}
+.cardReviewGoogle { color: #013322; margin: 40px 0px; transition: transform 0.3s ease; }
+.cardReviewGoogle a { color: #013322; text-decoration: none; }
+.cardReviewGoogle span { font-size: 20px; font-weight: bold; }
 
-.slideNav {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 1rem;
-  text-align: center;
-}
+.cardReviewGoogle:hover { transform: scale(1.09); }
 
-.slideItem {
-  max-width: 100%;
-  height: auto;
-}
+.herselfCard { width: 100%; max-width: 100%; overflow-x: hidden; }
 
+.slideNav { width: 100%; box-sizing: border-box; padding: 1rem; text-align: center; }
+.slideItem { max-width: 100%; height: auto; }
 
-/* Evita overflow dos slides */
-.slideNav {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 1rem;
-  overflow: hidden;
-}
-
-/* Garante que o Swiper ocupe somente a largura da tela */
-.swiper {
-  width: 100%;
-  max-width: 100%;
-  overflow: hidden;
-}
-
-/* Impede rolagem horizontal no container principal */
-.feedbacks {
-  overflow-x: hidden;
-}
+.swiper { width: 100%; max-width: 100%; overflow: hidden; }
+.feedbacks { overflow-x: hidden; }
 
 
 
 @media (max-width: 768px) {
-    .feedbackIntroduction p:first-child { font-size: 20px; } 
-    .feedbackIntroduction p:last-child { font-size: 14px !important; margin: 10px 0px !important; }
-    .feedbacksCard {
-    padding: 1rem;
-  }
+  .feedbackIntroduction p:first-child { font-size: 20px; } 
+  .feedbackIntroduction p:last-child { font-size: 14px !important; margin: 10px 0px !important; }
+  .feedbacksCard { padding: 1rem; }
 
-  .cardsImg {
-    flex-direction: column;
-    gap: 10px;    
-  }
-
-  .cardsImg button {
-    margin: auto !important;
-    margin-bottom: 20px !important;
-  }
-
-  .card {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+  .cardsImg { flex-direction: column; gap: 10px; }
+  .cardsImg button { margin: auto !important; margin-bottom: 20px !important; }
+  .card { flex-direction: column; align-items: flex-start; }
 }
