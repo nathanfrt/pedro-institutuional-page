@@ -1,0 +1,42 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import styles from "./Himself.module.css";
+import sobre from "../../Images/Sobre.jpeg";
+import calender from "../../Images/calendar.png";
+
+function Himself() {
+  const contactText = 'https://www.doctoralia.com.br/pedro-henrique-siqueira-2';
+
+  return (
+    <div className={`container ${styles.himself}`} id="sobre-mim">
+      <section className={styles.sectionAbout}>
+        <div className={`d-flex justify-content-between align-items-start mb-5 ${styles.herselfCard} flex-wrap`}>
+          
+          <div className={`order-2 order-md-1 col-lg-5 col-md-12 ${styles.himself} animate-on-visible`}>
+            <div className={styles.content} >
+              <img src={sobre} alt="Dr. Pedro Siqueira" className={styles.iconHimself} />
+            </div>
+          </div>
+
+          <div className={`order-1 order-md-2 col-lg-7 col-md-12 ${styles.himself}`}>
+            <div className={`title animate-on-visible`}>
+              <p>Sobre mim</p>
+              <p className="description">
+                Sou médico formado com <strong>Honraria Acadêmica Cum Laude pela Universidade Federal do Rio de Janeiro (UFRJ)</strong> e tive a formação voltada a psiquiatria desde minha base, com passagem pelo <strong>Instituto de Psiquiatria da UFRJ (IPUB)</strong>, um dos mais renomados polos de formação da psiquiatria no Brasil. <br /><br />
+                Faço parte da equipe médica de residência de psiquiatria do <strong>Hospital da Polícia Militar de Minas Gerais (HPM-MG)</strong>. Possuo experiências no cuidado médico nas mais diversas esferas, desde a atenção primária à saúde, pronto-atendimentos e instituições hospitalares.<br /><br />
+                <strong>Será um prazer te ajudar da melhor forma possível, te ouvindo e buscando, junto a você, o melhor tratamento.</strong>
+              </p><br/>
+              <button className="btn btn-success animate-on-visible ">
+                <a target="_blank" href={contactText}>
+                <img src={calender} alt="Ícone calendário" className="calenderImg" />
+                  Marque sua consulta
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export default Himself;

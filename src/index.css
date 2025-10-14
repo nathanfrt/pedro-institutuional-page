@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+body {
+    font-family: 'Pathway Extreme', sans-serif !important;
+}
+
+button { margin: auto !important; border-radius: 12px !important; padding: 10px 20px !important; background: #448e82 !important; transition: background-color 0.3s ease, transform 0.1s ease; }
+button:hover, button:focus { background-color: #39776d !important; }
+button a { color: white; text-decoration: none; }
+
+.animate-on-visible { opacity: 0; transform: translateY(80px); transition: opacity 0.6s ease, transform 0.6s ease; }
+.animate-on-visible.visible { opacity: 1; transform: translateY(0); }
+.animate-slide-right { opacity: 0; transform: translateX(80px); transition: opacity 0.6s ease, transform 0.6s ease; }
+.animate-slide-right.visible { opacity: 1; transform: translateX(0); }
+
+.calenderImg { width: 30px; margin-right: 10px; }
+
+.title { text-align: center; font-size: 30px; font-weight: bold; margin-bottom: 0px; }
+.description { padding: 20px; font-size: 18px; text-align: justify; margin: 10px 40px; font-weight: 400; }
+
+.toggle-icon { margin-left: 10px; font-size: 18px; }
+
+.logoFooter { display: flex; justify-content: center; margin: 60px 0px; }
+.logoFooter img { width: 15%; }
+
+
+/*Regras do FAQ*/
+.item { border-bottom: 1px solid #ccc; padding: 15px 0; }
+
+.question { display: flex; font-size: 20px; justify-content: flex-start; align-items: center; cursor: pointer; font-weight: bold; transition: color 0.3s ease; }
+.question:hover { color: #a3e0d4; }
+.question span:last-child { margin-left: 20px; }
+
+.answer { max-height: 0; overflow: hidden; opacity: 0; transition: all 0.3s ease; margin-top: 10px; }
+.answer.show { font-size: 18px; font-weight: 200; margin-left: 45px; max-height: 900px; opacity: 1;}
+
+.rotate { transform: rotate(180deg);}
+/*Fim regras do FAQ*/
+
+@media (max-width: 768px) {
+  
+    button { padding: 8px 15px !important; background: #448e82 !important; display: flex !important; font-size: 13px !important; }
+    nav a { margin-top: 0px; }
+
+    .title { font-size: 18px; }
+    .description { padding: 0px; font-size: 14px; margin: 10px 20px; }
+
+    .question { font-size: 14px; font-weight: 500; align-items: start;}
+    .question span:last-child { margin-left: 10px; }
+
+    .logoFooter { margin: 30px 0px; }
+    .logoFooter img { width: 40%; }
+    
+    .answer.show { font-size: 12px; }
+  }
+

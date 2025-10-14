@@ -1,0 +1,20 @@
+.hero {
+  background: #1e232f !important;
+  color: white;
+  text-align: center;
+  padding: 50px 0px;
+  z-index: 3;
+  position: relative;
+  max-width: 100%;
+
+}
+.heroCard {
+  width: 100%;
+  margin: auto;
+  flex-wrap: wrap;
+  color: #1e232f;
+  z-index: 2;
+  position: relative;
+  cursor: pointer;
+}
+

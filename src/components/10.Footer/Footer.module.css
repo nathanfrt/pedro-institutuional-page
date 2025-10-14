@@ -1,0 +1,15 @@
+.logo { display: flex; justify-content: center; margin: 100px 0px; }
+
+.information { text-align: center; color: white; background: #212529; padding: 4px 0px; } 
+.information p, .information a { font-size: 10px; margin: 5px 0px 0px; font-weight: 600; color: white; text-decoration: none;}
+.information span { font-size: 12px; }
+
+.footer { max-width: none; background: #212529; }
+
+@media (max-width: 768px) {
+
+.logo { margin: 50px 0px;}
+.information span { font-size: 9px; }
+.information p { font-size: 7px; margin-bottom: 10px;}
+
+}
