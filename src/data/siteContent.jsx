@@ -1,6 +1,6 @@
 import logo from '../Images/logo preto.png';
 import calender from '../Images/calendar.png';
-import perfil from '../Images/psq.png';
+import perfil from '../Images/psq.jpeg';
 import sobre from '../Images/Sobre.jpeg';
 import consultorio from '../Images/consultorio.jpeg';
 import chat from '../Images/chat.png';
